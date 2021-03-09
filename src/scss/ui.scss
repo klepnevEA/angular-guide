@@ -1,0 +1,13 @@
+.container {
+  padding: 0 var(--gap);
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  &--main {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    padding: 0;
+  }
+}

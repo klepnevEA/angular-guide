@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  background-color: var(--secondary-bg-color);
+  padding: var(--gap);
+}
+
+.aside-menu {
+
+  &__link {
+    color: var(--black-color);
+  }
+}

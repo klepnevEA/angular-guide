@@ -1,0 +1,22 @@
+:host {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.main-page {
+  display: flex;
+  flex: 1 1 auto;
+
+  &__aside {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex: 0 0 auto;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+  }
+}

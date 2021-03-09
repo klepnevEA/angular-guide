@@ -1,0 +1,5 @@
+<ul class="aside-menu" *ngIf="guideList$ | async as guideList">
+  <li class="aside-menu__item" *ngFor="let guide of guideList">
+    <a href="#" class="aside-menu__link">{{guide.title}}</a>
+  </li>
+</ul>

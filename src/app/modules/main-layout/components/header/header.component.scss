@@ -1,0 +1,49 @@
+:host {
+  z-index: 100;
+}
+
+.header {
+  background-color: var(--main-bg-color);
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 30%);
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--gap) 0;
+  }
+
+  &__logo {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.logo {
+  &__link {
+    display: block;
+  }
+  &__img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.nav {
+  &__list {
+    display: flex;
+    justify-content: center;
+    margin: calc(var(--gap) * -1);
+  }
+
+  &__link {
+    display: block;
+    padding: var(--gap);
+    color: var(--white-color);
+    border-radius: var(--bradius);
+
+    &:hover {
+      background-color: var(--main-bg-color-hover);
+    }
+  }
+}
